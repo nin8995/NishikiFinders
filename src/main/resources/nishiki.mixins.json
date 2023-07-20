@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nin.nishiki.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nishiki.refmap.json",
+  "mixins": [
+    "DropParrotFeather",
+    "NoBrushCooldown"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
